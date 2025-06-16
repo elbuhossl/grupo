@@ -1,7 +1,6 @@
-FROM teddysun/v2ray:latest
-# Expose the correct container port (8080)
+FROM alpine:latest
 EXPOSE 8080
-# Copy the VLESS config into the container
-COPY config.json /etc/v2ray/config.json
-# Run V2Ray with the config file
-CMD ["v2ray", "run", "-config", "/etc/v2ray/config.json"]
+WORKDIR /app
+RUN wget https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip && unzip v2ray-linux-64.zip && rm v2ray-linux-64.zip && rm config.json
+COPY config.json /app
+ENTRYPOINT ["./v2ray","run"]
