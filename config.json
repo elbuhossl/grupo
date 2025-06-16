@@ -4,67 +4,32 @@
       "port": 8080,
       "protocol": "vless",
       "settings": {
+        "decryption": "none",
         "clients": [
           {
-            "id": "36459fd0-0c89-4733-b20e-067ffc341bd2",
-            "level": 0
+            "id": "94b807c9-0130-4de7-887c-cd7d5108a0c2"
           },
           {
-            "id": "a1e4f30a-b318-4b5d-bd76-2fc51d4148d9",
-            "level": 0
+            "id": "07b807c2-0130-4de7-887c-cd7d5108a0c2"
           },
           {
-            "id": "c97c3e7e-25cf-4e07-93e5-254ec21ae50a",
-            "level": 0
+            "id": "00b807c7-0130-4de7-887c-cd7d5108a0c2"
           },
           {
-            "id": "51d23854-f317-4e1a-9109-34ec74c30e77",
-            "level": 0
-          },
-          {
-            "id": "db1c96d4-9835-4bc5-b39e-52716f41c539",
-            "level": 0
-          },
-          {
-            "id": "f0321c79-d71b-4078-90fa-87e99e20ac96",
-            "level": 0
-          },
-          {
-            "id": "845c88d7-87be-4b5e-a50e-8f27cbce4786",
-            "level": 0
-          },
-          {
-            "id": "412ee7e2-f4e2-4019-9c48-5e3c52737f71",
-            "level": 0
-          },
-          {
-            "id": "de105bf4-b6cf-42d1-91d2-1d1e89d0e5c9",
-            "level": 0
-          },
-          {
-            "id": "90889db1-9c87-4f6e-b777-306b469bdc43",
-            "level": 0
-          },
-          {
-            "id": "4a1ab93c-2593-4e14-9ed3-2a2de71bc87f",
-            "level": 0
+            "id": "00b80788-0130-4de7-887c-cd7d5108a0c1"
           }
-        ],
-        "decryption": "none"
+        ]
       },
       "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/TG-EL-BUHO"
-        }
+        "network": "ws"
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom",
-      "settings": {}
+      "protocol": "freedom"
     }
   ]
 }
+
 
